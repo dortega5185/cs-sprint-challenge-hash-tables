@@ -24,7 +24,6 @@ def reconstruct_trip(tickets, length):
     # look up each ticket's next destination and add it to the destinations array
     # stop when the next destination is actually the string "NONE".
     for current_leg in range(0, length):
-
         # record next destination
         destinations[current_leg] = next_destination        
 
