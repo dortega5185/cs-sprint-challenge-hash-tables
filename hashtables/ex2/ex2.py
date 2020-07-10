@@ -1,3 +1,4 @@
+
 #  Hint:  You may not need all of these.  Remove the unused functions.
 class Ticket:
     def __init__(self, source, destination):
@@ -31,3 +32,6 @@ def reconstruct_trip(tickets, length):
         next_destination = destination_lookup[next_destination]
 
     return destinations
+
+
+    
