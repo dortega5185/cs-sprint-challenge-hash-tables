@@ -32,6 +32,4 @@ def reconstruct_trip(tickets, length):
         next_destination = destination_lookup[next_destination]
 
     return destinations
-
-
     
